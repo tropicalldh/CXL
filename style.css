@@ -64,7 +64,7 @@
 		}
 
 		.home-header-container * {
-			width: 100%;
+			/* width: 100%; */
 			text-align: center;
 		}
 
@@ -87,6 +87,18 @@
 			padding:15px;
 		}
 
+		/* text-block */
+
+		.text-block {
+			position: relative;
+			top: 25px;
+			/* left: 15px; */
+			background-color: rgba(13, 8, 59, .5);
+			color: white;
+			padding: 20px;
+			width: 30%;
+			min-width: 340px;
+		}
 
 
 
@@ -415,10 +427,10 @@
 
 		footer {
 			overflow:hidden;
-			background-color:transparent;
-			border-top-style:solid;
-			border-top-width:thin;
-			border-top-color:#717171;
+			background-color:rgba(13, 8, 59, 1);
+			/* border-top-style:solid; */
+			/* border-top-width:thin;
+			border-top-color:#717171; */
 		}
 
 		footer p {
@@ -625,21 +637,21 @@
 		#topBtn {
 			display: none;
 			position: fixed;
-			bottom: 20px;
-			right: 30px;
+			bottom: 15px;
+			right: 15px;
 			z-index: 99;
-			font-size: 18px;
+			font-size: 15px;
 			border: none;
 			outline: none;
-			background-color: #ccc;
+			background-color: rgba(13, 8, 59, .5);
 			color: white;
 			cursor: pointer;
-			padding: 15px;
+			padding: 10px;
 			border-radius: 4px;
 		}
 
 		#topBtn:hover {
-		  	background-color: #aaa;
+		  	background-color: rgba(13, 8, 59, .8);
 		}
 
 	/* Term Break Table */

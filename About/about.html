@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5STD5VV');</script>
+	<!-- End Google Tag Manager -->
+
+	<title>SeedCoding - About</title>
+
+	<meta name="description" content="Coding Classes for the Young">
+	<meta name="keywords" content="Seed Coding, Coding Class, Scratch, App Inventor, HTML, CSS, JavaScript, Hong Kong, Tony, About, RectiCurve">
+	<meta name="author" content="Tony Lee">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5STD5VV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<nav>
+		<!-- Responsive Top Navigation -->
+		<div class="topnav" id="myTopnav">
+			<a href="../home.html">Home</a>
+			<a href="../curriculum/curriculum.html">Curriculum</a>
+			<a href="../course/course.html">Course</a>
+			<a href="../teacher/teacher.html">Teacher</a>
+			<a href="about.html" class="active">About</a>
+			<a href="../contact/contact.html">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="resNavFunction()">
+    			&#x2630;
+  			</a>
+		</div>
+
+		<script>
+		function resNavFunction() {
+		    var x = document.getElementById("myTopnav");
+		    var y= document.getElementById("headerSlideshow")
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		        y.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		        y.className = "slideshow-container";
+		    }
+		    topFunction()
+		}
+		</script>
+	</nav>
+
+	<header>
+		<!-- Slideshow container -->
+		<div class="slideshow-container" id="headerSlideshow">
+
+		  	<!-- Full-width images with number and caption text -->
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 1.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide1_narrow.png">
+			    	<img src="../CoverSlide1.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 2.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide2_narrow.png">
+			    	<img src="../CoverSlide2.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 3.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide3_narrow.png">
+			    	<img src="../CoverSlide3.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 4.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide4_narrow.png">
+			    	<img src="../CoverSlide4.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 3.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide5_narrow.png">
+			    	<img src="../CoverSlide5.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+
+		  	<div class="mySlides fade">
+			    <div class="numbertext"></div>
+			    <!-- <img src="Cover Slide 4.png" style="width:100%"> -->
+			    <picture>
+			    	<source media="(max-width:600px)" srcset="../CoverSlide6_narrow.png">
+			    	<img src="../CoverSlide6.png" style="width:100%">
+			    </picture>
+			    <div class="text"></div>
+		  	</div>
+
+		  	<!-- Next and previous buttons -->
+		  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+
+		<br/>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span>
+		  	<span class="dot" onclick="currentSlide(2)"></span>
+		  	<span class="dot" onclick="currentSlide(3)"></span>
+		  	<span class="dot" onclick="currentSlide(4)"></span>
+		  	<span class="dot" onclick="currentSlide(5)"></span>
+		  	<span class="dot" onclick="currentSlide(6)"></span>
+		</div>
+
+		<!-- JavasScript -->
+		<script>
+			var slideIndex = 5;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  	showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  	showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  	var i;
+			  	var slides = document.getElementsByClassName("mySlides");
+			  	var dots = document.getElementsByClassName("dot");
+			  	if (n > slides.length) {slideIndex = 1}
+			  	if (n < 1) {slideIndex = slides.length}
+			  	for (i = 0; i < slides.length; i++) {
+			      	slides[i].style.display = "none";
+			  	}
+			  	for (i = 0; i < dots.length; i++) {
+			      	dots[i].className = dots[i].className.replace(" active", "");
+			  	}
+			  	slides[slideIndex-1].style.display = "block";
+			  	dots[slideIndex-1].className += " active";
+			}
+		</script>
+
+	</header>
+
+	<section>
+		<h1>About</h1>
+		<div class="row row_1">
+			<div class="column col_side logo">
+				<div>
+					<img src="../Logo-SeedCoding.png" id="logoSeedCoding" alt="SeedCoding Logo">
+				</div>
+			</div>
+			<div class="column col_content">
+				<h2>About SeedCoding</h2>
+				<p>SeedCoding is a coding education brand of RectiCurve. It provides coding classes for the young in Hong Kong.</p>
+				<h3>Meaning of SeedCoding</h3>
+				<ul>
+					<h4><li>We Seed Coding Skills:</li></h4>
+					<p>We seed coding skills by providing coding classes. </p>
+					<h4><li>STEMs Come from a Seed:</li></h4>
+					<p>Coding facilitates learning STEM (<em>Science, Technology, Engineering and Mathematics</em>) by helping students directly implement, test and simulate what they learn and what they come up with.</p>
+					<h4><li>The Class is for Seeds:</li></h4>
+					<p>The class is for the young who will grow up in a variety of ways along with their own talents in the future. We believe learning how to code in the early age will help them fully display their talents in many different fields where they may play through their lives.</p>
+				</ul>
+			</div>
+		</div>
+		<div class="row row_2">
+			<div class="column col_side logo">
+				<div>
+					<img src="../Logo-RectiCurve.png" id="logoRectiCurve" alt="RectiCurve Logo">
+				</div>
+			</div>
+			<div class="column col_content">
+				<h2>About RectiCurve</h2>
+				<p>RectiCurve manages SeedCoding.</p>
+				<h3>Story of RectiCurve</h3>
+				<p>RectiCurve is a startup incorporated in Hong Kong on 15 August 2017 to launch a new online advertising platform first in Hong Kong and next to the all over the world.</p>
+				<p>To put legal protection on its business idea, RectiCurve had prepared for a patent application during the 2nd half of 2017, and successfully applied for a PCT patent on 1 January 2018.</p>
+				<p>The founder & CEO, Tony Lee, is now developing all the relevant systems by himself and now is going to share with the young what he has learned about coding since 2005 and what he thinks should be learned together with coding, such as knowledge of mathematics.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- When scroll down, Top button comes up. -->
+
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("topBtn").style.display = "block";
+	    } else {
+	        document.getElementById("topBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+	<!-- End : When scroll down, Top button comes up.-->
+
+	<p></p>
+
+	<footer>
+		<p>Copyright &#169; 2018 RectiCurve (Hong Kong) Limited. All rights reserved.</p>
+		<address>
+			Written by <a href="mailto:Service@RectiCurve.com">RectiCurve</a>.
+		</address>
+	</footer>
+
+</body>
+</html>

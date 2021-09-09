@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5STD5VV');</script>
+	<!-- End Google Tag Manager -->
+
+	<title>CXL - Home</title>
+
+	<meta name="description" content="Coding Classes for the Young">
+	<meta name="keywords" content="Seed Coding, Coding Class, Scratch, App Inventor, HTML, CSS, JavaScript, Hong Kong, Tony, Home, Index">
+	<meta name="author" content="Tony Lee">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5STD5VV"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<nav>
+		<!-- Responsive Top Navigation -->
+		<div class="topnav" id="myTopnav">
+			<a href="home.html" class="active">Home</a>
+			<a href="about/about.html">About</a>
+			<a href="service/service.html">Service</a>
+			<a href="contact/contact.html">Contact</a>
+			<a href="javascript:void(0);" class="icon" onclick="resNavFunction()">
+    			&#x2630;
+  		</a>
+		</div>
+
+		<script>
+		function resNavFunction() {
+		    var x = document.getElementById("myTopnav");
+		    var y= document.getElementById("headerSlideshow")
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		        y.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		        y.className = "slideshow-container";
+		    }
+		    topFunction()
+		}
+		</script>
+	</nav>
+
+	<header>
+		<div class="home-header-container">
+			<div style="font-size:130px">CXL</div>
+			<div style="font-size:15px;font-weight:bold;color:rgba(91, 102, 126, 1)">CELESTIAL XPRESS LOGISTICS CO., LTD</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="bg" style="background-image:url('Images/intro.png')">
+			<div class="sc">
+				<div style="font-size:60px;font-weight:bold;">
+					<p>‘Standby’, <br>
+						As your own Expert</p>
+				</div>
+				<div>
+					<p>CXL will prepare for all logistics solutions and suggestions. <br>
+					All the challenge will be overcome with our expertise and knowledge about logistics. <br>
+					Beyond logistics services, we can be your competitiveness.</p>
+				</div>
+
+
+
+
+				We, CXL, are truly proud and appreciative
+				of a firm belief and trust from our valued
+				customers over the years. The belief
+				shown by our customers has become
+				a fertile soil for us to take root in the
+				industry with priceless experience.
+				In return, we made the glorious achievement
+				with our customers in different industries.
+				We pursue innovative ways rather than
+				following conventional methods. The
+				world has been changed, and so must the
+				logistics.
+				We are devoting our eff orts to offering the
+				very best services to ensure the highest
+				customer satisfaction.
+				It is our promise that we remain steadfast
+				to our endeavors towards a higher quality
+				of services and commitment to providing
+				our customers with higher value.
+
+
+			</div>
+		</div>
+	</section>
+
+
+
+	<section>
+		<h1><a href="curriculum/curriculum.html">Curriculum</a></h1>
+	</section>
+
+	<section>
+		<h1><a href="course/course.html">Course</a></h1>
+	</section>
+
+	<section>
+		<h1><a href="teacher/teacher.html">Teacher</a></h1>
+	</section>
+
+	<section>
+		<h1><a href="about/about.html">About</a></h1>
+	</section>
+
+	<section>
+		<h1><a href="contact/contact.html">Contact</a></h1>
+	</section>
+
+	<!-- When scroll down, Top button comes up. -->
+
+	<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	        document.getElementById("topBtn").style.display = "block";
+	    } else {
+	        document.getElementById("topBtn").style.display = "none";
+	    }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	    document.body.scrollTop = 0;
+	    document.documentElement.scrollTop = 0;
+	}
+	</script>
+
+	<!-- End : When scroll down, Top button comes up.-->
+
+	<p></p>
+
+	<footer>
+		<p>Copyright &#169; 2018 RectiCurve (Hong Kong) Limited. All rights reserved.</p>
+		<address>
+			Written by <a href="mailto:Service@RectiCurve.com">RectiCurve</a>.
+		</address>
+	</footer>
+
+</body>
+</html>

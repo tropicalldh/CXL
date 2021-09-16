@@ -34,7 +34,7 @@
 			font-size:15px;
 		}
 
-		.topnav a:hover {
+		.topnav a:not(.active):hover {
 			/*background-color:transparent*/;
 			color:rgba(91, 102, 126, 1);
 		}

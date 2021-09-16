@@ -18,7 +18,7 @@
 			border-bottom-width:thin; */
 			border-bottom-color:#000;
 
-			position:fixed;
+			/* position:fixed; */
 			z-index:1;
 			top:0px;
 			width:100%;
@@ -526,12 +526,6 @@
 			display:block;
 		}
 
-	/* Style Logos in "To Be Added ..." tab */
-
-		#logoMITAppInventor2, #logoHTML5, #logoCSS, #logoJavaScript {
-			width:200px;
-			padding-top:22px;
-		}
 
 	/* On smaller screens */
 
@@ -672,63 +666,4 @@
 
 		#topBtn:hover {
 		  	background-color: rgba(13, 8, 59, .8);
-		}
-
-	/* Term Break Table */
-
-		#TermBreakTable {
-			text-align:center;
-			border:1px solid #ccc;
-			border-collapse:collapse;
-		}
-		#TermBreakTable th {
-			background-color:#f1f1f1;
-			padding:10px;
-			border-bottom:1px solid #ccc;
-		}
-		/*	#TermBreakTable tr:nth-child(1) {
-			border-bottom:1px solid #ccc;
-		}*/
-
-	/* Tuition Table */
-
-		#TuitionTable {
-			text-align:center;
-			border:1px solid #ccc;
-			border-collapse:collapse;
-			margin-bottom:6px;
-		}
-		#TuitionTable th, td {
-			text-align:center;
-			border:1px solid #ccc;
-			border-collapse:collapse;
-		}
-		#TuitionTable th {
-			background-color:#f1f1f1;
-			padding:10px;
-		}
-
-	/* Button to go to Calculator */
-
-		#btnCal {
-			font-size:15px;
-			color:#5B9BD5;
-			background-color:transparent;
-			border:1px solid #5B9BD5;
-		}
-		#btnCal:hover {
-			cursor:pointer;
-		}
-
-	/* Form of Calculator */
-
-		#Calculator form {
-			font-size:13px;
-			/*color:#717171;*/
-			background-color:#eee;
-			padding:5px;
-		}
-		#Calculator label {
-			display:block;
-			padding-bottom:5px;
 		}

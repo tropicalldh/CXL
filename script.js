@@ -1,0 +1,29 @@
+function resNavFunction() {
+    var x = document.getElementById("myTopnav");
+    var y= document.getElementById("headerSlideshow")
+    if (x.className === "topnav") {
+        x.className += " responsive";
+        y.className += " responsive";
+    } else {
+        x.className = "topnav";
+        y.className = "slideshow-container";
+    }
+    topFunction()
+}
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("topBtn").style.display = "block";
+    } else {
+        document.getElementById("topBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

@@ -556,7 +556,7 @@
 		}
 
 		@media screen and (max-width: 600px) {
-		  	.topnav a:not(:first-child) {
+		  	.topnav a:not(.active) {
 		  		display: none;
 		  	}
 		  	.topnav a.icon {

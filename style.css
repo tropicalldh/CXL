@@ -68,6 +68,26 @@
 			text-align: center;
 		}
 
+		/*Below for Head Container*/
+
+		.header-container {
+			/* background-color: rgba(13, 8, 59, 1); */
+			color: rgba(0, 64, 130, 1);
+			height: 300px;
+			width: 100%;
+			padding-top:51px;
+			/* margin-top: 51px;	/* Because Class topnav is fixed on the top */
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-content: center;
+		}
+
+		.header-container * {
+			/* width: 100%; */
+			text-align: center;
+		}
+
 		/*Below for Background*/
 
 		.bg {

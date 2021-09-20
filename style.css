@@ -9,6 +9,11 @@
 			font-family: Arial, Helvetica, sans-serif;
 		}
 
+		p {
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+
 		/*Below for Top Navigation*/
 
 		.topnav {
@@ -203,8 +208,16 @@
 			padding:10px;
 		}
 
+		.columnPack {
+			float:left;
+		}
+
 		.col30 {
 			width:30%;
+		}
+
+		.col35 {
+			width:35%;
 		}
 
 		.col50 {
@@ -408,7 +421,7 @@
 	/* On smaller screens */
 
 		@media only screen and (max-width: 840px) {
-			.col30, .col50, .col70 {
+			.col30, .col35, .col50, .col70 {
 				width:100%;
 			}
 			.column.logo, .column.photo {

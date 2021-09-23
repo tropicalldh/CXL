@@ -15,6 +15,11 @@
 			margin-bottom:10px;
 		}
 
+		h4 {
+			margin-top:0px;
+			margin-bottom:0px;
+		}
+
 		/*Below for Top Navigation*/
 
 		.topnav {
@@ -169,9 +174,23 @@
 			background-color:rgba(0,160,220,1);
 		}
 
+		/* Icons */
 
+		.icon {
+			height:55px;
+		}
 
-
+		/* #service_System:after {
+				content:"";
+				background-image: url(images/icon_gear.png);
+				background-size:19px 19px;
+				height:19px;
+				width:19px;
+				display: inline-block;
+				float: right;
+				margin-left: 5px;
+			}
+		} */
 
 
 
@@ -260,15 +279,15 @@
 		.col30 {
 			width:30%;
 		}
-
+		.col33 {
+			width:33.33%;
+		}
 		.col35 {
 			width:35%;
 		}
-
 		.col50 {
 			width:50%;
 		}
-
 		.col70 {
 			width:70%;
 		}
@@ -283,8 +302,6 @@
 			display:table;
 			clear:both;
 		}
-
-
 
 		/* Collapsible */
 
@@ -467,7 +484,7 @@
 	/* On smaller screens */
 
 		@media only screen and (max-width: 840px) {
-			.col30, .col35, .col50, .col70 {
+			.col30, .col33, .col35, .col50, .col70 {
 				width:100%;
 			}
 			.column.logo, .column.photo {

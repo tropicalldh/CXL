@@ -85,7 +85,13 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
+<<<<<<< HEAD
 			align-items: center;
+=======
+			-webkit-justify-content: center;
+			align-content: center;
+			-webkit-align-content: center;
+>>>>>>> 7c0e7a9e2d5dd65169aec48672a15024ae1589b6
 			background-size:100% auto;
 			background-repeat: no-repeat;
 		}

@@ -85,7 +85,9 @@
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
+			-webkit-justify-content: center;
 			align-content: center;
+			-webkit-align-content: center;
 			background-size:100% auto;
 			background-repeat: no-repeat;
 		}

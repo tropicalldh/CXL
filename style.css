@@ -144,6 +144,9 @@
 
 		/* Font related */
 
+		.fBBlue {
+			color:rgba(13, 8, 59, 1);
+		}
 		.fDBlue {
 			color:rgba(0,64,161,1);
 		}
@@ -191,6 +194,14 @@
 				margin-left: 5px;
 			}
 		} */
+
+
+		/* Align */
+
+		.alignItemsBottom {
+			display:flex;
+			align-items:flex-end;
+		}
 
 
 
@@ -276,11 +287,17 @@
 			float:left;
 		}
 
+		.col25 {
+			width:25%;
+		}
 		.col30 {
 			width:30%;
 		}
 		.col33 {
-			width:33.33%;
+			width:33%;
+		}
+		.col34 {
+			width:34%;
 		}
 		.col35 {
 			width:35%;
@@ -306,7 +323,7 @@
 		/* Collapsible */
 
 		.collapsible {
-		    background-color: #ddd;
+		    background-color: #dde;
 		    cursor: pointer;
 		    padding: 12px;
 		    width: 100%;
@@ -318,14 +335,14 @@
 		}
 
 		.activeCollapse, .collapsible:hover {
-		    background-color: #ccc;
+		    background-color: #ccd;
 		}
 
 		.collapsible:after {
 		    content: '\002B';
 		    color: white;
 		    font-weight: bold;
-		    font-size:17px;
+		    font-size:3vmax;
 		    float: right;
 		    margin-left: 5px;
 		}
@@ -466,8 +483,11 @@
 	/* On smaller screens */
 
 		@media only screen and (max-width: 840px) {
-			.col30, .col33, .col35, .col50, .col70 {
+			.col25, .col30, .col33, .col34, .col35, .col50, .col70 {
 				width:100%;
+			}
+			.alignItemsBottom {
+				display:block;
 			}
 			.column.logo, .column.photo {
 				text-align:center;

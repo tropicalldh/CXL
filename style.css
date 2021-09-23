@@ -79,7 +79,7 @@
 		.header-container {
 			/* background-color: rgba(13, 8, 59, 1); */
 			color: rgba(0, 64, 130, 1);
-			height: 45vw;
+			height: 45vmax;
 			width: 100%;
 			/* padding-top:51px; */
 			/* margin-top: 51px;	/* Because Class topnav is fixed on the top */
@@ -97,7 +97,7 @@
 		}
 
 		.header-title {
-			font-size:4vw;
+			font-size: 4vmax;
 			color:white;
 		}
 
@@ -132,6 +132,41 @@
 			/* width: 30%;
 			min-width: 300px; */
 		}
+
+		/* Font related */
+
+		.fDBlue {
+			color:rgba(0,64,161,1);
+		}
+		.fLBlue {
+			color:rgba(0,160,220,1);
+		}
+
+		.f20 {
+			font-size:20px;
+		}
+		.f40 {
+			font-size:40px;
+		}
+		.f3vmax {
+			font-size:3vmax;
+		}
+
+		.bold {
+			font-weight:bold;
+		}
+
+		/* Background related */
+
+		.bDBlue {
+			background-color:rgba(0,64,161,1);
+		}
+		.bLBlue {
+			background-color:rgba(0,160,220,1);
+		}
+
+
+
 
 
 
@@ -252,13 +287,13 @@
 		.collapsible {
 		    background-color: #ddd;
 		    cursor: pointer;
-		    padding: 8px;
-		    width: 280px;
+		    padding: 12px;
+		    width: 100%;
 		    border: none;
 		    text-align: left;
 		    outline: none;
 		    font-size: 15px;
-		    margin-bottom:7px;
+		    margin-bottom:10px;
 		}
 
 		.activeCollapse, .collapsible:hover {

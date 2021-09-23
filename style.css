@@ -78,7 +78,7 @@
 		.header-container {
 			/* background-color: rgba(13, 8, 59, 1); */
 			color: rgba(0, 64, 130, 1);
-			height: 280px;
+			height: 45vw;
 			width: 100%;
 			/* padding-top:51px; */
 			/* margin-top: 51px;	/* Because Class topnav is fixed on the top */
@@ -93,6 +93,11 @@
 		.header-container {
 			/* width: 100%; */
 			text-align: center;
+		}
+
+		.header-title {
+			font-size:4vw;
+			color:white;
 		}
 
 		/*Below for Background*/
@@ -445,10 +450,7 @@
 		    	float: right;
 		    	display: block;
 		    	font-size:20px;
-		  	}
-		}
-
-		@media screen and (max-width: 600px) {
+				}
 		  	.topnav.responsive {
 		  		position: relative;
 		  	}
@@ -483,7 +485,11 @@
 			}
 			.slideshow-container {
 				margin-top:47px;
-			}#inLink_CouInfoSess, #inLink_CouScrBasOpen, #inLink_CouScrProOpen, #inLink_CurScrBas, #inLink_CurScrPro {
+			}
+			/* .header-container {
+				height: 280px
+			} */
+			#inLink_CouInfoSess, #inLink_CouScrBasOpen, #inLink_CouScrProOpen, #inLink_CurScrBas, #inLink_CurScrPro {
 				top:-48px;
 			}
 			#Calculator select {

@@ -149,13 +149,26 @@
 			color:white;
 		}
 
-		.header-container-plain {
+		.header-title-wo-bg {
 			padding:15px;
 			color:rgba(13, 8, 59, 1);
-			font-weight:bold;
+			font-weight:bolder;
 			font-size:3.5vmax;
-			height: 70vmax;
 			overflow:hidden;
+		}
+
+		.header-img-not-bg-top {
+			height: 50vmax;
+			overflow:hidden;
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.header-img-not-bg-bottom {
+			height: 50vmax;
+			overflow:hidden;
+			display: flex;
+			align-items: flex-end;
 		}
 
 		/*Below for Background*/

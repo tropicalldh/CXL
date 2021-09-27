@@ -323,7 +323,8 @@
 		/* Collapsible */
 
 		.collapsible {
-		    background-color: #dde;
+		    /* background-color: #dde; */
+				background-color: rgba(0,64,161,0.2);
 		    cursor: pointer;
 		    padding: 12px;
 		    width: 100%;
@@ -335,7 +336,8 @@
 		}
 
 		.activeCollapse, .collapsible:hover {
-		    background-color: #ccd;
+		    /* background-color: #ccd; */
+				background-color: rgba(0,64,161,0.3);
 		}
 
 		.collapsible:after {

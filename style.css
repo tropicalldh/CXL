@@ -157,18 +157,38 @@
 			overflow:hidden;
 		}
 
-		.header-img-not-bg-top {
+		.header-img-not-bg {
 			height: 50vmax;
 			overflow:hidden;
+		}
+
+		.header-img-top {
 			display: flex;
 			align-items: flex-start;
 		}
-
-		.header-img-not-bg-bottom {
-			height: 50vmax;
-			overflow:hidden;
+		.header-img-vCenter {
+			display: flex;
+			align-items: center;
+		}
+		.header-img-bottom {
 			display: flex;
 			align-items: flex-end;
+		}
+		.header-img-left {
+			display: flex;
+			justify-content: flex-start;
+		}
+		.header-img-hCenter {
+			display: flex;
+			justify-content: center;
+		}
+		.header-img-right {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.imgInServiceHeader {
+			width: 100%;
 		}
 
 		/*Below for Background*/
@@ -653,29 +673,19 @@
 			.text {
 			  	font-size: 11px
 			}
-			.dot {
-			  	height: 12px;
-			  	width: 12px;
-			}
-			.prev, .next, .topnav a {
+			.topnav a {
 				font-size:15px;
 			}
 			.topnav a.menuIcon {
 				font-size: 14px;
 			}
-			.slideshow-container {
-				margin-top:47px;
-			}
 			/* .header-container {
 				height: 280px
 			} */
-			#inLink_CouInfoSess, #inLink_CouScrBasOpen, #inLink_CouScrProOpen, #inLink_CurScrBas, #inLink_CurScrPro {
-				top:-48px;
+			.imgInServiceHeader {
+				width: auto;
+				height: 100%;
 			}
-			#Calculator select {
-				max-width:334px;
-			}
-		}
 
 
 	/* Alarm on Registration Openings by animation */
